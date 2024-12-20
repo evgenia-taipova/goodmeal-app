@@ -1,12 +1,12 @@
 import LinkSection from "./LinkSection";
-import iconPark from "../../public/icon-park-outline_handle-c.svg";
-import Logo from "../../public/logo.svg";
-import Facebook from "../../public/facebook.svg";
-import Instagram from "../../public/instagram.svg";
-import Viber from "../../public/viber.svg";
-import Telegram from "../../public/telegram.svg";
-import Phone from "../../public/phone.svg";
-import Clock from "../../public/clock.svg";
+import iconPark from "/icon-park-outline_handle-c.svg";
+import Logo from "/logo.svg";
+import Facebook from "/facebook.svg";
+import Instagram from "/instagram.svg";
+import Viber from "/viber.svg";
+import Telegram from "/telegram.svg";
+import Phone from "/phone.svg";
+import Clock from "/clock.svg";
 
 function Footer() {
   return (

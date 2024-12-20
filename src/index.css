@@ -1,3 +1,20 @@
+:root {
+  --green: #4caf50;
+  --orange: #ff5722;
+  --white: #fffefe;
+  --black: #1e1e1e;
+  --light-black: #757575;
+  --yellow: #ff9800;
+  --light-green: #53b06c;
+  --light-grey: #cbcbcb;
+  --red: #ff2222;
+  --light-orange: #fff6f3;
+  --dark-grey: #585858;
+  --sale-color: #dbefdc;
+  --grey: #909090;
+  --present-bg: #272626;
+}
+
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -7,13 +24,12 @@ body {
   font-family: "Noto Sans", serif;
   font-style: normal;
   line-height: normal;
-  background-color: #fffefe;
+  background-color: var(--white);
 }
 
 .footer-links {
-  background-color: #4caf50;
+  background-color: var(--green);
   border-radius: 36px;
-
   display: flex;
   padding: 30px 94px;
   justify-content: center;
@@ -28,8 +44,7 @@ body {
 }
 
 .footer-column h4 {
-  color: #fffefe;
-  /* Title 7 */
+  color: var(--white);
   font-size: 20px;
   font-weight: 600;
   line-height: normal;
@@ -44,7 +59,7 @@ body {
 
 .footer-column li {
   padding: 8px;
-  color: #fffefe;
+  color: var(--white);
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
@@ -52,7 +67,7 @@ body {
 
 .footer-copyright {
   border-radius: 36px 36px 0px 0px;
-  background: #ff5722;
+  background: var(--orange);
   display: flex;
   padding: 20px 0;
   padding-left: 90px;
@@ -62,12 +77,13 @@ body {
 }
 
 .footer-copyright_text {
-  color: #fffefe;
+  color: var(--white);
   font-size: 18px;
   font-weight: 400;
   line-height: normal;
   width: 362px;
 }
+
 .footer-copyright span {
   font-weight: 700;
 }
@@ -75,7 +91,7 @@ body {
 .footer-contacts {
   display: flex;
   padding: 20px 82px;
-  gap: 122px;
+  justify-content: space-between;
 }
 
 .footer-contact__social {
@@ -104,7 +120,7 @@ body {
 }
 
 .footer-contacts__info h4 {
-  color: #1e1e1e;
+  color: var(--black);
   font-size: 18px;
   font-weight: 500;
   line-height: normal;
@@ -114,8 +130,9 @@ body {
   display: flex;
   gap: 5px;
 }
+
 .footer-contacts__info-item p {
-  color: #1e1e1e;
+  color: var(--black);
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
