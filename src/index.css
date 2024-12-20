@@ -1,139 +1,139 @@
 :root {
-  --green: #4caf50;
-  --orange: #ff5722;
-  --white: #fffefe;
-  --black: #1e1e1e;
-  --light-black: #757575;
-  --yellow: #ff9800;
-  --light-green: #53b06c;
-  --light-grey: #cbcbcb;
-  --red: #ff2222;
-  --light-orange: #fff6f3;
-  --dark-grey: #585858;
-  --sale-color: #dbefdc;
-  --grey: #909090;
-  --present-bg: #272626;
+    --green: #4caf50;
+    --orange: #ff5722;
+    --white: #fffefe;
+    --black: #1e1e1e;
+    --light-black: #757575;
+    --yellow: #ff9800;
+    --light-green: #53b06c;
+    --light-grey: #cbcbcb;
+    --red: #ff2222;
+    --light-orange: #fff6f3;
+    --dark-grey: #585858;
+    --sale-color: #dbefdc;
+    --grey: #909090;
+    --present-bg: #272626;
 }
 
 html {
-  box-sizing: border-box;
-  scroll-behavior: smooth;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 body {
-  font-family: "Noto Sans", serif;
-  font-style: normal;
-  line-height: normal;
-  background-color: var(--white);
+    font-family: "Noto Sans", serif;
+    font-style: normal;
+    line-height: normal;
+    background-color: var(--white);
 }
 
 .footer-links {
-  background-color: var(--green);
-  border-radius: 36px;
-  display: flex;
-  padding: 30px 94px;
-  justify-content: center;
-  gap: 100px;
+    background-color: var(--green);
+    border-radius: 36px;
+    display: flex;
+    padding: 30px 94px;
+    justify-content: center;
+    gap: 100px;
 }
 
 .footer-column {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  min-width: 238px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    min-width: 238px;
 }
 
 .footer-column h4 {
-  color: var(--white);
-  font-size: 20px;
-  font-weight: 600;
-  line-height: normal;
-  padding: 8px;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    padding: 8px;
 }
 
 .footer-column ul {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
 
 .footer-column li {
-  padding: 8px;
-  color: var(--white);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
+    padding: 8px;
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .footer-copyright {
-  border-radius: 36px 36px 0px 0px;
-  background: var(--orange);
-  display: flex;
-  padding: 20px 0;
-  padding-left: 90px;
-  align-self: stretch;
-  align-items: center;
-  gap: 3px;
+    border-radius: 36px 36px 0px 0px;
+    background: var(--orange);
+    display: flex;
+    padding: 20px 0;
+    padding-left: 90px;
+    align-self: stretch;
+    align-items: center;
+    gap: 3px;
 }
 
 .footer-copyright_text {
-  color: var(--white);
-  font-size: 18px;
-  font-weight: 400;
-  line-height: normal;
-  width: 362px;
+    color: var(--white);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    width: 362px;
 }
 
 .footer-copyright span {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .footer-contacts {
-  display: flex;
-  padding: 20px 82px;
-  justify-content: space-between;
+    display: flex;
+    padding: 20px 82px;
+    justify-content: space-between;
 }
 
 .footer-contact__social {
-  display: flex;
-  width: 528px;
-  align-items: center;
-  gap: 176px;
+    display: flex;
+    width: 528px;
+    align-items: center;
+    gap: 176px;
 }
 
 .footer-contacts__social-icons {
-  display: flex;
-  align-items: center;
-  gap: 28px;
+    display: flex;
+    align-items: center;
+    gap: 28px;
 }
 
 .footer-contacts__info-section {
-  display: flex;
-  gap: 61px;
+    display: flex;
+    gap: 61px;
 }
 
 .footer-contacts__info {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  width: 277px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 277px;
 }
 
 .footer-contacts__info h4 {
-  color: var(--black);
-  font-size: 18px;
-  font-weight: 500;
-  line-height: normal;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .footer-contacts__info-item {
-  display: flex;
-  gap: 5px;
+    display: flex;
+    gap: 5px;
 }
 
 .footer-contacts__info-item p {
-  color: var(--black);
-  font-size: 16px;
-  font-weight: 400;
-  line-height: normal;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
 }
