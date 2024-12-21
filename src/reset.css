@@ -166,3 +166,9 @@ input,
 select {
     vertical-align: middle;
 }
+
+button {
+    all: unset;
+    display: inline-block;
+    cursor: pointer;
+}
