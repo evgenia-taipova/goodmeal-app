@@ -20,6 +20,16 @@ html {
     scroll-behavior: smooth;
 }
 
+.app-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+}
+
 button {
     border: none;
     font-family: "Noto Sans", serif;
@@ -30,6 +40,10 @@ body {
     font-style: normal;
     line-height: normal;
     background-color: var(--white);
+}
+
+footer {
+    flex-shrink: 0;
 }
 
 .footer-links {
@@ -142,7 +156,16 @@ body {
     font-weight: 400;
     line-height: normal;
 }
+
+.footer-contacts__text a {
+    all: unset;
+    cursor: pointer;
+}
 /* Header */
+
+header {
+    flex-shrink: 0;
+}
 
 .header {
     border-radius: 0px 0px 36px 36px;

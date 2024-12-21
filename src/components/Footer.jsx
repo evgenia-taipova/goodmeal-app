@@ -16,10 +16,18 @@ function Footer() {
                 <div className="footer-contact__social">
                     <img src={Logo} alt="Logo" />
                     <div className="footer-contacts__social-icons">
-                        <img src={Facebook} alt="Facebook" />
-                        <img src={Instagram} alt="Instagram" />
-                        <img src={Viber} alt="Viber" />
-                        <img src={Telegram} alt="Telegram" />
+                        <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+                            <img src={Facebook} alt="Facebook" />
+                        </a>
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+                            <img src={Instagram} alt="Instagram" />
+                        </a>
+                        <a href="https://www.viber.com" target="_blank" rel="noopener noreferrer">
+                            <img src={Viber} alt="Viber" />
+                        </a>
+                        <a href="https://t.me" target="_blank" rel="noopener noreferrer">
+                            <img src={Telegram} alt="Telegram" />
+                        </a>
                     </div>
                 </div>
 
@@ -33,7 +41,7 @@ function Footer() {
                                 className="footer-contacts__icon"
                             />
                             <p className="footer-contacts__text">
-                                0800 301 707
+                                <a href="tel:+380800301707">0800 301 707</a>
                             </p>
                         </div>
                         <div className="footer-contacts__info-item">
@@ -54,8 +62,9 @@ function Footer() {
                                 className="footer-contacts__icon"
                             />
                             <p className="footer-contacts__text">
-                                0800 301 707
+                                <a href="tel:0800301707">0800 301 707</a>
                             </p>
+
                         </div>
                         <div className="footer-contacts__info-item">
                             <img
