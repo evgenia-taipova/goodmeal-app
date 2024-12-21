@@ -20,6 +20,11 @@ html {
     scroll-behavior: smooth;
 }
 
+button {
+    border: none;
+    font-family: "Noto Sans", serif;
+}
+
 body {
     font-family: "Noto Sans", serif;
     font-style: normal;
@@ -136,4 +141,123 @@ body {
     font-size: 16px;
     font-weight: 400;
     line-height: normal;
+}
+
+/* LogIn */
+
+.login {
+    height: 100vh;
+    padding: 10px 5px;
+    background-color: #fff;
+    background-image: url(./login_background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__frame {
+    width: 644px;
+    max-height: 620px;
+    height: 100%;
+
+    border-radius: 36px;
+    border: 3px solid var(--green);
+    background: var(--white);
+    background-image: url(./login_frame_background.svg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login__inner {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.login__form-btn {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.login__form-btn button {
+    width: 235px;
+    border-radius: 30px;
+    background: var(--green);
+
+    padding: 12px 48px;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--white);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.login__inner form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login__form-text {
+    color: rgba(30, 30, 30, 0.8);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.login__form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.login__form-input {
+    height: 41px;
+    border-radius: 8px;
+    border: 1px solid var(--light-grey);
+    background: var(--white);
+    padding: 0 20px;
+
+    font-size: 14px;
+    line-height: normal;
+    color: var(--light-black);
+}
+
+.login__form-rules {
+    max-width: 373px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+.login__form-rules a {
+    color: var(--green);
+    text-decoration-skip-ink: none;
+}
+
+.login__top {
+    color: var(--green);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.login__top h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.login__top p {
+    font-size: 14px;
+    font-weight: 400;
 }
