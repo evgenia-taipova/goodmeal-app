@@ -1,7 +1,11 @@
 import Categories from "./Categories";
 import ArrowGreyRight from "/arrow-lightblack-right.svg";
+import ArrowLightGreyLeft from "/arrow-lightgrey-left.svg";
+import ArrowBlackRight from "/arrow-black-right.svg";
 import FilterIcon from "/filter-icon.svg";
 import SortIcon from "/sort-icon.svg";
+import CardsList from "./CardsList.jsx";
+
 
 function CardsSection() {
     return (
@@ -27,21 +31,24 @@ function CardsSection() {
                             <img src={SortIcon} alt="SortIcon" />
                         </div>
                     </div>
-                    
-                    <div>
-                        <ul></ul>
-                    </div>
+
+                    <CardsList/>
                 </div>
             </div>
             <div className="pagination-section">
                 <button className="show-more">Показати ще</button>
                 <div className="pagination">
-                    <button className="page-arrow">&lt;</button>
+                    <button className="pagination-arrow">
+                        <img src={ArrowLightGreyLeft} alt="Previous page" />
+                    </button>
                     <button className="page-number active">1</button>
                     <button className="page-number">2</button>
                     <button className="page-number">3</button>
-                    <button className="page-number">4</button>
-                    <button className="page-arrow">&gt;</button>
+                    <span className="ellipsis">...</span>
+                    <button className="page-number">10</button>
+                    <button className="pagination-arrow">
+                        <img src={ArrowBlackRight} alt="Next page" />
+                    </button>
                 </div>
             </div>
         </div>

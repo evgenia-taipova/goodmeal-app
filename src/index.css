@@ -536,4 +536,93 @@ body {
     line-height: normal;
 }
 
+.pagination {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
 
+.pagination-arrow {
+    width: 24px;
+    height: 24px;
+}
+
+.page-number {
+    color: var(--grey);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.page-number.active,
+.ellipsis {
+    color: var(--black);
+}
+
+.card-item {
+    width: 162px;
+    display: flex;
+    padding: 17px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+
+    border-radius: 20px;
+    border: 3px solid var(--green);
+    background: var(--white);
+}
+
+.card-main {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 162px;
+}
+
+.card-title {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.card-title h5 {
+    overflow: hidden;
+    color: var(--black);
+    text-overflow: ellipsis;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+}
+.card-title p {
+    color: var(--black);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.quantity-selector[data-unit="pieces"] {
+    gap: 12px;
+}
+
+.quantity-selector button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    border: 1px solid var(--light-grey);
+}
+
+.quantity-selector span {
+    color: var(--light-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: normal;
+}
